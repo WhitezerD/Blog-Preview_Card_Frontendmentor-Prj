@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Fonts */
+  --FF: Figtree, sans-serif;
+
+  /* Colors */
+  --BGCOLOR: hsl(0, 0%, 100%);
+  --BGCOLOR-HEADER: hsl(47, 88%, 63%);
+  --FONT-COLOR: hsl(0, 0%, 7%);
+  --FONT-COLOR-FADE: hsl(0, 0%, 42%);
+}
+
+html {
+  font-family: var(--FF);
+  background-color: var(--BGCOLOR-HEADER);
+}
+
+.box--primary {
+  width: 375px;
+  margin: 25vh auto;
+  padding: 1em;
+  border: 2px solid black;
+  border-radius: 1em;
+  background-color: var(--BGCOLOR);
+  box-shadow: 0.5em 0.5em;
+}
+
+.img--title {
+  border-radius: 0.5em;
+}
+
+.text--title {
+  display: inline-block;
+  font-size: 1em;
+  margin-top: 15px;
+  background-color: var(--BGCOLOR-HEADER);
+  padding: 0.5em 0.75em;
+  border-radius: 0.25em;
+}
+
+.text--date {
+  margin-top: 15px;
+  font-size: 1em;
+  color: var(--FONT-COLOR);
+  font-weight: bold;
+}
+
+.text--subtitle {
+  margin-top: 15px;
+}
+
+.text--content {
+  margin-top: 15px;
+  color: var(--FONT-COLOR-FADE);
+}
+
+footer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.img--profile {
+  width: 10%;
+}
+
+.text--profile {
+  margin-left: 1em;
+  align-self: center;
+  font-weight: bold;
+}
